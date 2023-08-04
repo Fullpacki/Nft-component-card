@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "playoff";
+    src: url("../public/Outfit-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: "playoff";
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0d192c;
+    padding : 0 1.5em;
+}
